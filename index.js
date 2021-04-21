@@ -1,8 +1,5 @@
-const myButton = document.getElementById('button');
-let someString = 'Data';
+const button = document.getElementsByTagName('button')
 
-myButton.addEventListener('click', function() {
-  console.log(someString); 
-
-  someString = 'Data Again';
-});
+button.addEventListener("click", function () {
+    alert("Food is coming!")
+}
