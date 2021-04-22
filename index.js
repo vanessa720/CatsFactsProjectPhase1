@@ -1,5 +1,7 @@
-const button = document.getElementsByTagName('button')
-
-button.addEventListener("click", function () {
-    alert("Food is coming!")
+const getFacts = () => {
+  return fetch('https://cat-fact.herokuapp.com/facts')
+  .then(res => res.json())
 }
+
+getFacts().then(console.log)
+
