@@ -12,3 +12,16 @@ document.addEventListener('DOMContentLoaded', () => {
     })
    
 })
+
+
+const factContainer = document.getElementById('factContainer')
+
+const createFactDiv = (fact) => {
+const setup = document.createElement('p')
+setup.innerText = fact.fact
+return setup;
+}
+const appendFact = (fact) => {
+    const factItem = createFactDiv(fact)
+    factContainer.append(factItem);
+}
