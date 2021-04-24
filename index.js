@@ -33,3 +33,12 @@ btnFact.onclick = ()=>{
         appendFact(fact);
     })
 }
+
+const changeCat=(isHover)=>{
+    if(isHover){
+        document.getElementById('cat-img').src="Images/ExcitedCat.png";
+    }
+    else{
+        document.getElementById('cat-img').src="Images/NormalCat.png";
+    }
+}
