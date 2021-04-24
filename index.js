@@ -42,3 +42,7 @@ const changeCat=(isHover)=>{
         document.getElementById('cat-img').src="Images/NormalCat.png";
     }
 }
+
+const removeElement=()=>{
+    factContainer.removeChild(factContainer.childNodes[1]);
+}
