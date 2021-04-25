@@ -34,7 +34,6 @@ btnFact.onclick = ()=>{
     })
 }
 
-
 const changeCat=(isHover)=>{
     if(isHover){
         document.getElementById('cat-img').src="Images/Angry.gif";
