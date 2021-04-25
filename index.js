@@ -36,10 +36,10 @@ btnFact.onclick = ()=>{
 
 const changeCat=(isHover)=>{
     if(isHover){
-        document.getElementById('cat-img').src="Images/ExcitedCat.png";
+        document.getElementById('cat-img').src="Images/Angry.gif";
     }
     else{
-        document.getElementById('cat-img').src="Images/NormalCat.png";
+        document.getElementById('cat-img').src="Images/Happy.gif";
     }
 }
 
