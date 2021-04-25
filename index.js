@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     getFact().then((fact)=>{
         appendFact(fact);
     })
-   
+
 })
 
 const factContainer = document.getElementById('factContainer')
@@ -33,6 +33,7 @@ btnFact.onclick = ()=>{
         appendFact(fact);
     })
 }
+
 
 const changeCat=(isHover)=>{
     if(isHover){
